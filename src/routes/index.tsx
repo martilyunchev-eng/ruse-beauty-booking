@@ -70,9 +70,9 @@ function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header className="absolute inset-x-0 top-0 z-50 border-b border-primary-foreground/20 text-primary-foreground">
-      <div className="mx-auto grid h-20 max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 lg:px-10">
+      <div className="mx-auto grid h-20 max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 lg:flex lg:px-10">
         <a href="#top" className="min-w-0 font-display text-xl leading-none sm:text-2xl">Ruse Beauty Face</a>
-        <nav className="hidden items-center gap-8 lg:flex" aria-label="Основна навигация">
+        <nav className="hidden items-center gap-8 lg:ml-auto lg:flex" aria-label="Основна навигация">
           {navItems.map(([label, href]) => <a key={href} href={href} className="text-xs uppercase tracking-[0.14em] opacity-80 transition-opacity hover:opacity-100">{label}</a>)}
         </nav>
         <Button asChild variant="champagne" size="luxury" className="hidden lg:inline-flex"><a href="#booking">Запази час</a></Button>
