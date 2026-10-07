@@ -1,4 +1,4 @@
 # Tasks
-- [ ] Place the uploaded opening and closing photographs.
-- [ ] Add numbered service sections with the requested brochure photographs.
-- [ ] Verify photo rendering and apply required package update.
+- [x] Place the uploaded opening and closing photographs.
+- [x] Add numbered service sections with the requested brochure photographs.
+- [x] Verify photo rendering and apply required package update.
