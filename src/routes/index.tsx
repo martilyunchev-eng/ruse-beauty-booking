@@ -19,7 +19,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import openingTeam from "@/assets/opening-team.png.asset.json";
-import laserBrochure from "@/assets/laser-brochure.png.asset.json";
+import laserBrochure from "@/assets/laser-upright.png.asset.json";
 import ndYagBrochure from "@/assets/nd-yag-brochure.png.asset.json";
 import iplBrochure from "@/assets/ipl-brochure.png.asset.json";
 import facialBrochure from "@/assets/facial-cleansing-brochure.png.asset.json";
@@ -161,7 +161,7 @@ function Index() {
       <div className="mb-16 border-b border-border pb-16">
         <SectionLabel>01 · Лазерна епилация</SectionLabel>
         <h2 className="mb-8 font-display text-4xl leading-tight sm:text-6xl">Лазерна епилация</h2>
-        <img src={laserBrochure.url} loading="lazy" width={1366} height={768} alt="Информация от салона за Fotora Quattro Ultra" className="h-auto w-full object-contain" />
+        <img src={laserBrochure.url} loading="lazy" width={900} height={1600} alt="Информация от салона за Fotora Quattro Ultra" className="mx-auto h-auto w-full max-w-xl object-contain" />
       </div>
       <div className="mb-16 border-b border-border pb-16">
         <SectionLabel>02 · Апаратно почистване на лице</SectionLabel>
